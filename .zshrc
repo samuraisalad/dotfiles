@@ -1,6 +1,7 @@
 export PATH=$HOME/.rbenv/bin:$PATH
 export JAVA_HOME=`/usr/libexec/java_home -v 1.8`
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages/:$PYTHONPATH"
+export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
 eval "$(rbenv init -)"
 
 setopt SHARE_HISTORY
