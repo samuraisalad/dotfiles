@@ -14,3 +14,7 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 set number
 syntax on
 
+"undoファイル(.un)をまとめて管理するディレクトリを設定
+set undodir=$HOME/.vim/etc/undodir
+set undofile
+
